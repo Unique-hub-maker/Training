@@ -1,27 +1,32 @@
- h2 {
-   color: red;
- }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
- @media(max-width:600px) {
-   h2 {
-     color: purple;
-   }
- }
+.logo {
+  display: flex;
+  gap: 10px;
 
- .navigation {
-   background-color: grey;
-   display: flex;
+}
 
- }
+.logo div {
+  font-size: 15px;
+  font-weight: 800;
+}
 
- #navs {
-   color: rgb(255, 255, 255);
-   justify-content: space-evenly;
-   align-items: center;
- }
+.menu_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
- .menu-item {
-   display: flex;
-   align-items: center;
+.info div {
+  display: flex;
+  font-size: 12px
+}
 
- }
+.callbutton {
+  background-color: orange;
+  color: white;
+}
