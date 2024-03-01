@@ -31,7 +31,6 @@ nav{
     display: flex;
     gap: 10px;
     align-items: center;
-    gap: 50px;
 }
 
 .menu_item a{
@@ -49,9 +48,6 @@ nav{
 .info div{
     display: flex;
     font-size: 14px;
-    align-items: center;
-    gap: 5px;
-
 }
 
 .callbutton{
